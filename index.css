@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.neon-text {
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+}
+.neon-btn {
+  background: transparent;
+  border: 2px solid #0ff;
+  color: #0ff;
+  border-radius: 8px;
+  transition: 0.2s;
+  box-shadow: 0 0 12px #0ff;
+}
+.neon-btn:hover { background: #0ff2; color: #fff; }
+.neon-input {
+  border: 2px solid #0ff;
+  background: #000;
+  color: #0ff;
+  outline: none;
+  border-radius: 8px;
+}
+.neon-border { border: 2px solid #0ff; box-shadow: 0 0 12px #0ff; }
+.neon-blue { --tw-shadow-color: #0ff; }
+.neon-pink { --tw-shadow-color: #ff00cc; }
+.neon-green { --tw-shadow-color: #39ff14; }
+.neon-orange { --tw-shadow-color: #ff9900; }
+.neon-glow { filter: drop-shadow(0 0 16px #0ff); }
